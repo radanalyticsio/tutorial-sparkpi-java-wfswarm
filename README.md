@@ -45,6 +45,6 @@ Pi, you can specify them by adding the `scale` argument to your request
 , for example:
 
 ```bash
-$ curl http://`oc get routes/wfswarm-sparkpi --template='{{.spec.host}}'`/sparkpi?scale=10
+$ curl http://`oc get routes/wfswarm-sparkpi --template='{{.spec.host}}'`/app/sparkpi?scale=10
 Pi is roughly 3.141749
 ```
