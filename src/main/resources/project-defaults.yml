@@ -1,0 +1,11 @@
+# default location for an s2i deployment
+spark:
+  submit:
+    jarfile: /opt/app-root/src/${project.name}-${project.version}.jar
+# default elytron audit log
+# needs placement in a writeable dir in s2i
+swarm:
+  elytron:
+    file-audit-logs:
+        local-audit:
+          path: /tmp/audit.log
