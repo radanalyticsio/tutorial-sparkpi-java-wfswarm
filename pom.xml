@@ -18,7 +18,7 @@
     <properties>
         <version.wildfly-swarm>2018.1.0</version.wildfly-swarm>
         <version.spark>2.2.0</version.spark>
-        <version.hadoop>2.7.3</version.hadoop>
+        <version.hadoop>2.7.7</version.hadoop>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <failOnMissingWebXml>false</failOnMissingWebXml>
